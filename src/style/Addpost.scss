@@ -1,0 +1,30 @@
+.addpost {
+  height: 89.4vh;
+  margin-top: 5%;
+
+  input {
+    background-color: white;
+    width: 25rem;
+  }
+
+  textarea {
+    height: 15rem;
+    width: 25rem;
+    outline: none;
+  }
+
+  button {
+    width: 25rem;
+    height: 3rem;
+    outline: none;
+    transition: all 0.3s;
+  }
+
+  button:hover {
+    background-color: darken(#efefef, 10%);
+  }
+
+  button:active {
+    transform: translateY(3px);
+  }
+}
